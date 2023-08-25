@@ -1,0 +1,59 @@
+{
+  "title": "Cloudwatch Dashoard for Lambda",
+  "description": "Patterns creates a Lambda Function and Cloudwatch Dashoard with Metrics from Lambda",
+  "language": ".NET",
+  "level": "300",
+  "framework": "CDK",
+  "introBox": {
+    "headline": "How it works",
+    "text": [
+      "This sample project demonstrates how to deploy Lambda with the necessary tools that helps in enabling ability to send metrics to Cloudwatch Dashboard.",
+      "Dashboard leverage metrics from Default Namespace, LambdaInsight, and Custom metrics from Lambda.",
+      "Lambda Docker Image has the Insight Agent part of the Lambda and use Lambda Powertools to send the Custom Metrics."
+    ]
+  },
+  "gitHub": {
+    "template": {
+      "repoURL": "https://github.com/aws-samples/serverless-patterns/tree/main/cw-dashboard-lambda-metrics",
+      "templateURL": "serverless-patterns/cw-dashboard-lambda-metrics",
+      "projectFolder": "cw-dashboard-lambda-metrics",
+      "templateFile": "cw-dashboard-lambda-metrics/DotnetLambdaCloudwatchDashboard/DotnetLambdaCloudwatchDashboardStack.cs"
+    }
+  },
+  "resources": {
+    "bullets": [
+      {
+        "text": "AWS Lambda",
+        "link": "https://aws.amazon.com/lambda/"
+      },
+      {
+        "text": "Cloudwatch",
+        "link": "https://aws.amazon.com/cloudwatch/"
+      }
+    ]
+  },
+  "deploy": {
+    "text": [
+      "See the Github repo for detailed deployment instructions."
+    ]
+  },
+  "testing": {
+    "text": [
+      "See the Github repo for detailed testing instructions."
+    ]
+  },
+  "cleanup": {
+    "text": [
+      "See the Github repo for detailed cleanup instructions."
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sakthivel Chellapparimanam",
+      "image": "",
+      "bio": "AWS - Cloud Application Architect",
+      "linkedin": "https://www.linkedin.com/in/srcsakthivel",
+      "twitter": "@srcsakthivel"
+    }
+  ]
+}
